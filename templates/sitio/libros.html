@@ -1,0 +1,25 @@
+{% include 'sitio/cabecera.html' %}
+
+
+    <!--  bs5-grid-default  -->
+        <div class="row" style="margin-top: 50px;">
+            <!--  Consultando en la DB para poder obtener la informacion  -->
+            {% for libro in libros %}
+
+            <div class="col-3">
+                <div class="card" style="margin-block-end: 30px;">
+                    <img class="card-img-top" style="width: 260px; height: 300px;" src="/imagenes/{{ libro[2] }}" alt="Title">
+                    <div class="card-body">
+                        <h4 class="card-title">{{ libro[1] }}</h4>
+                        <p class="card-text">
+                            <a name="" id="" class="btn btn-primary" href="{{ libro[3] }}" role="button">Descargar</a>
+                        </p>
+                    </div>
+                </div>
+            </div>
+            
+            {% endfor %}
+        </div>
+
+
+{% include 'sitio/pie_pagina.html' %}
