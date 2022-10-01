@@ -52,6 +52,34 @@ CREATE TABLE `libros` (
 );
 ```
 
-## Conexion a la DB
+# Vista
 
+## Inicio
 
+<p aling="center">
+    <img src="./img/0.png" alt="">
+</p>
+
+## Seccion Libros
+
+<p aling="center">
+    <img src="./img/1.png" alt="">
+</p>
+
+## Login
+
+<p aling="center">
+    <img src="./img/2.png" alt="">
+</p>
+
+## Inicio Admin
+
+<p aling="center">
+    <img src="./img/3.png" alt="">
+</p>
+
+## Seccion Admin Libros
+
+<p aling="center">
+    <img src="./img/4.png" alt="">
+</p>
